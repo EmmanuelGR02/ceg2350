@@ -41,16 +41,31 @@
 ## Part 2 Answers
 
 1.
+    PROMPT: In DirA, create a file called test.txt
+    
+    ANSWER: 'cd DirA' -> touch test.txt
+    
+    
 2. File contents:
-
+    COMMANDS: 'vim test.txt'
+    
 ```
 **file contents here**
+    One line of text
+    Two lines of text
+    Three lines of text
+    ~
+    ~ 
 ```
 
 ## Part 3 Answers
 
 1.
-2.
+    PROMPT: Make a copy of test.txt inside DirA named .hiddentext.txt
+    
+    ANSWER: 'cp test.txt .hiddentext.txt'
+    
+2. To see '.hiddentext.txt' file, i used the following commands: 'vim .hiddentext.text' or 'ls -a'
 
 ## Part 4 Answers
 
