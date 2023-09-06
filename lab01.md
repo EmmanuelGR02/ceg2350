@@ -65,14 +65,18 @@
     
     ANSWER: 'cp test.txt .hiddentext.txt'
     
-2. To see '.hiddentext.txt' file, i used the following commands: 'vim .hiddentext.text' or 'ls -a'
+2. To see '.hiddentext.txt' file, i used the following commands: 'vim .hiddentext.text' or 'ls -a'  '
 
 ## Part 4 Answers
 
 1. SSH command to sign in to your AWS instance:
 
 ```
-**write command here so it will look fancy on GitHub**
+ssh-keygen
+Downloads
+cd Downloads
+cp labsuser.pem ~/.ssh/
+ssh -i labsuser.pem ubuntu@54.209.213.248
 ```
 
 ## Part 5 Answers
@@ -80,4 +84,5 @@
 1. Command to clone your GitHub repository:
 
 ```
-**write command here so it will look fancy on GitHub**```
+git clone https://github.com/EmmanuelGR02/ceg2350.git
+```
